@@ -58,22 +58,6 @@ export const EditCourse = () => {
       try {
         if (!courses) return
 
-        // validate course name and grade
-        if (
-          courses.filter(
-            (course) => course.name.toLowerCase() === name.toLowerCase()
-          )?.length > 0 &&
-          courses.filter(
-            (course) => course.grade.toLowerCase() === grade.toLowerCase()
-          )?.length > 0
-        ) {
-          throw {
-            title: 'Este curso já existe!',
-            description:
-              'Encontramos um curso com este mesmo nome cadastrado, verifique os campos e tente novamente'
-          }
-        }
-
         await fetch(`${API_URL}/courses/${id}`, {
           method: 'PATCH',
           headers: {
@@ -276,6 +260,7 @@ export const EditCourse = () => {
                     setCourseNameError(false)
                   }
                 }}
+                disabled
               />
               <Text fontSize="0.75rem" color="#BC3206">
                 {courseNameError && 'Este campo é obrigatório!'}
@@ -300,6 +285,7 @@ export const EditCourse = () => {
                       setCourseCodeError(false)
                     }
                   }}
+                  disabled
                 />
                 <Text fontSize="0.75rem" color="#BC3206">
                   {courseCodeError && 'Este campo é obrigatório!'}
