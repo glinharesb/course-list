@@ -1,0 +1,236 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "code": "ADM206",
+      "name": "ADMINISTRAÇÃO",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 1,
+      "code": "ADM202",
+      "name": "ADMINISTRAÇÃO",
+      "level": "UniversityGraduate",
+      "grade": "Technologist"
+    },
+    {
+      "id": 2,
+      "code": "ADS001",
+      "name": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 3,
+      "code": "BIG001",
+      "name": "BIG DATA ANALYTICS",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 4,
+      "code": "ALS001",
+      "name": "ALIMENTAÇÃO SAUDÁVEL",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 5,
+      "code": "ABI002",
+      "name": "ANÁLISE DE BUSINESS INTELLIGENCE",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 6,
+      "code": "DFS002",
+      "name": "DESENVOLVIMENTO FULL STACK",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 7,
+      "code": "CPN002",
+      "name": "COMPUTAÇÃO EM NUVEM",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 8,
+      "code": "AGN001",
+      "name": "AGRONEGÓCIO",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 9,
+      "code": "AGR001",
+      "name": "AGRONOMIA",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 10,
+      "code": "AQD001",
+      "name": "ARQUITETURA DE DADOS",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 11,
+      "code": "AQU001",
+      "name": "ARQUITETURA E URBANISMO",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 12,
+      "code": "ARV001",
+      "name": "ARTES VISUAIS",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 13,
+      "code": "BCFD001",
+      "name": "BLOCKCHAIN, CRIPTOMOEDAS E FINANÇAS NA ERA DIGITAL",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 14,
+      "code": "BIO003",
+      "name": "BIOMEDICINA",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 15,
+      "code": "CBIO003",
+      "name": "CIÊNCIAS BIOLÓGICAS",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 16,
+      "code": "CCO003",
+      "name": "CIÊNCIAS CONTÁBEIS",
+      "level": "UniversityGraduate",
+      "grade": "BachelorDegree"
+    },
+    {
+      "id": 17,
+      "code": "CDH003",
+      "name": "COACHING E DESENVOLVIMENTO HUMANO",
+      "level": "UniversityGraduate",
+      "grade": "Technologist"
+    },
+    {
+      "id": 18,
+      "code": "CEX003",
+      "name": "COMÉRCIO EXTERIOR",
+      "level": "UniversityGraduate",
+      "grade": "Technologist"
+    },
+    {
+      "id": 19,
+      "code": "CFP003",
+      "name": "CONFEITARIA E PANIFICAÇÃO",
+      "level": "UniversityGraduate",
+      "grade": "Technologist"
+    },
+    {
+      "id": 20,
+      "code": "CIA003",
+      "name": "CIÊNCIAS AERONÁUTICAS",
+      "level": "UniversityGraduate",
+      "grade": "Technologist"
+    },
+    {
+      "id": 21,
+      "code": "CIB003",
+      "name": "CIBERSEGURANÇA",
+      "level": "PostGraduate",
+      "grade": "MBA"
+    },
+    {
+      "id": 22,
+      "code": "CIC003",
+      "name": "CIÊNCIA DA COMPUTAÇÃO",
+      "level": "UniversityGraduate",
+      "grade": "Graduation"
+    },
+    {
+      "id": 23,
+      "code": "CID003",
+      "name": "CIÊNCIA DE DADOS",
+      "level": "UniversityGraduate",
+      "grade": "Graduation"
+    },
+    {
+      "id": 24,
+      "code": "CIE004",
+      "name": "CIÊNCIAS ECONÔMICAS",
+      "level": "UniversityGraduate",
+      "grade": "Graduation"
+    },
+    {
+      "id": 25,
+      "code": "CIP004",
+      "name": "CIÊNCIA POLÍTICA",
+      "level": "PostGraduate",
+      "grade": "MBA"
+    },
+    {
+      "id": 26,
+      "code": "CIR004",
+      "name": "CIÊNCIAS DA RELIGIÃO",
+      "level": "PostGraduate",
+      "grade": "MBA"
+    },
+    {
+      "id": 27,
+      "code": "CIT004",
+      "name": "CIÊNCIA E TECNOLOGIA",
+      "level": "PostGraduate",
+      "grade": "MBA"
+    },
+    {
+      "id": 28,
+      "code": "DBE005",
+      "name": "DESENVOLVIMENTO BACK-END",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 29,
+      "code": "DGM005",
+      "name": "DESIGN DE MODA",
+      "level": "PostGraduate",
+      "grade": "Specialization"
+    },
+    {
+      "id": 30,
+      "code": "DIR004",
+      "name": "DIREITO",
+      "level": "UniversityGraduate",
+      "grade": "Graduation"
+    }
+  ],
+  "levels": {
+    "UniversityGraduate": "Graduação",
+    "PostGraduate": "Pós Graduação"
+  },
+  "grades": {
+    "UniversityGraduate": {
+      "BachelorDegree": "Bacharelado",
+      "Graduation": "Licenciatura",
+      "Technologist": "Tecnólogo"
+    },
+    "PostGraduate": {
+      "Specialization": "Especialização",
+      "MBA": "MBA"
+    }
+  }
+}
