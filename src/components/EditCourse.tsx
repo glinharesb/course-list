@@ -181,6 +181,7 @@ export const EditCourse = () => {
                   borderWidth={courseLevelError ? '2px' : '1px'}
                   onChange={({ target }) => {
                     setCourseLevelValue(target.value)
+                    setCourseGradeValue('')
 
                     if (courseLevelError && target.value.length > 0) {
                       setCourseLevelError(false)
@@ -224,16 +225,16 @@ export const EditCourse = () => {
                     Selecione o grau
                   </option>
                   {grades &&
-                    Object.values(grades).map((grade: Object) =>
-                      Object.values(grade).map(
-                        (children: string, index: number) => (
-                          <option
-                            key={children}
-                            value={Object.keys(grade)[index]}
-                          >
-                            {children}
-                          </option>
-                        )
+                    Object.values<string>(grades?.[courseLevelValue]).map(
+                      (level: string, index: number) => (
+                        <option
+                          key={level}
+                          value={
+                            Object.keys(grades?.[courseLevelValue])?.[index]
+                          }
+                        >
+                          {level}
+                        </option>
                       )
                     )}
                 </Select>

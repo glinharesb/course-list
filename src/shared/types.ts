@@ -16,6 +16,7 @@ export interface IGrades {
     Specialization: string
     MBA: string
   }
+  [key: string]: {}
 }
 
 export interface ILevels {
