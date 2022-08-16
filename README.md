@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Links
 
-## Getting Started
+Site em produção (Vercel): https://platos-draft.vercel.app/
 
-First, run the development server:
+API em produção (Heroku): https://platos-db.herokuapp.com/
+
+## Ferramentas
+
+- Node.js 16.15.0
+- Yarn 1.22.18
+- Next.js (TypeScript, ESLint)
+- Chakra UI
+- Cypress
+
+## Executando o projeto localmente
+
+Execute o seguindo comando para instalar os pacotes:
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+Execute o seguindo comando para iniciar o modo desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Por último, abra o link [http://localhost:3000](http://localhost:3000) no seu navegador para ver a aplicação.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## API local
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Para rodar a API localmente instale o json-server:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm install -g json-server
+# ou
+yarn global add json-server
+```
 
-## Learn More
+Execute com o seguinte comando:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run db
+# ou
+yarn db
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Troque a constante `API_URL` no arquivo `/src/shared/constants.ts` para a seguinte URL:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+http://localhost:8000
+```
 
-## Deploy on Vercel
+## Testes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Criei apenas dois testes utilizando o Cypress. Para rodar execute o seguinte comando:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run cypress
+# ou
+yarn cypress
+```
+
+## Pontos a melhorar
+
+- Implementar testes unitários
+- Implementar mais testes e2e (e melhores)
+- Dividir os componentes em componentes menores
+- Estilizar os Toasts de acordo com o layout
+- Customizar mais o tema do Chakra UI e criar variantes para os componentes
+- Trocar o fetch por useSWR
+- Colocar transições (CSS) nos componentes
