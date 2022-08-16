@@ -5,7 +5,8 @@ import {
   ModalHeader,
   ModalCloseButton,
   ModalFooter,
-  Button
+  Button,
+  useToast
 } from '@chakra-ui/react'
 import { useCallback } from 'react'
 import { API_URL } from '../shared/constants'
@@ -20,6 +21,7 @@ export const DeleteCourseModal = () => {
     updateCourses,
     setLoading
   } = useAppContext()
+  const toast = useToast()
 
   const deleteCourse = useCallback(async () => {
     try {
@@ -45,10 +47,16 @@ export const DeleteCourseModal = () => {
       if (setLoading) {
         setLoading(false)
       }
+
+      toast({
+        title: 'Curso deletado com sucesso!',
+        status: 'success',
+        isClosable: true
+      })
     } catch (error) {
       console.error(error)
     }
-  }, [courseToDelete?.id, onClose, setLoading, updateCourses])
+  }, [courseToDelete, onClose, setLoading, toast, updateCourses])
 
   return isOpen && onClose ? (
     <Modal finalFocusRef={finalRef} isOpen={isOpen} onClose={onClose}>
