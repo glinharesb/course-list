@@ -1,6 +1,6 @@
 ## Links
 
-Site em produção (Vercel): https://platos-draft.vercel.app/
+Site em produção (Vercel): https://course-list-glinharesb.vercel.app/
 
 API em produção (Heroku): https://platos-db.herokuapp.com/
 
