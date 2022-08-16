@@ -68,10 +68,10 @@ yarn cypress
 
 ## Pontos a melhorar
 
-- Implementar testes unitários
-- Implementar mais testes e2e (e melhores)
-- Dividir os componentes em componentes menores
-- Estilizar os Toasts de acordo com o layout
-- Customizar mais o tema do Chakra UI e criar variantes para os componentes
-- Trocar o fetch por useSWR
-- Colocar transições (CSS) nos componentes
+- [ ] Implementar testes unitários
+- [ ] Implementar mais testes e2e (e melhores)
+- [ ] Dividir os componentes em componentes menores
+- [ ] Estilizar os Toasts de acordo com o layout
+- [ ] Customizar mais o tema do Chakra UI e criar variantes para os componentes
+- [ ] Trocar o fetch por useSWR
+- [ ] Colocar transições (CSS) nos componentes
